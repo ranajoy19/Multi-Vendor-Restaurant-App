@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+foodOnline_template
 
 # C extensions
 *.so
