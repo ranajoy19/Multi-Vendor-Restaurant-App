@@ -1,0 +1,6 @@
+{% extends 'base.html' %} {% load static %} {% block content %} {% include 'includes/alerts.html' %}
+
+<h4>Logged in as: <b>{{ user.email }} {{user.get_role }}</b></h4>
+
+
+{% endblock %}
